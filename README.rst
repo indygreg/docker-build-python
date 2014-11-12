@@ -87,3 +87,11 @@ We may want to incorporate pyenv's
 script so we don't have to reinvent the wheel. That being said, python-build
 assumes a variable system. Courtesy of Docker, our system state should be
 better-defined, so we don't need so much complexity.
+
+The original project author is not 100% certain that others have not solved
+this exact problem before. The author is aware of projects like pyenv.
+However, the main purpose this project facilitates that the author believes
+to be unique is the ability to easily produce a standalone Python installation
+which can easily be distributed among several machines, independent of
+operating system packaging. The author would appreciate enlightenment if he
+is wrong.
